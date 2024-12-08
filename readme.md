@@ -13,7 +13,7 @@ O código realiza as seguintes etapas:
    A captura de vídeo é feita através da webcam utilizando o OpenCV. Cada frame capturado é pré-processado para detectar bordas e contornos, utilizando técnicas como desfoque e detecção de bordas com o algoritmo Canny.
 
 3. **Detecção de moedas**:
-   O código detecta os contornos das moedas na imagem, segmenta as regiões de interesse e as classifica usando o modelo Keras. As moedas são classificadas como "1 real", "25 cent" ou "50 cent" com base na previsão do modelo.
+   O código detecta os contornos das moedas na imagem, segmenta as regiões de interesse e as classifica usando o modelo Keras. As moedas são classificadas como "1 real", "25 centavos" ou "50 centavos" com base na previsão do modelo.
 
 4. **Exibição do valor total**:
    O valor total das moedas detectadas é calculado e exibido em tempo real na janela de vídeo.
